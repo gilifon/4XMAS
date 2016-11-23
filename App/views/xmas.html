@@ -1,12 +1,9 @@
 ﻿<div class="container" >
     <p class="margin-bottom-40"></p>
     <p>
-        <i id="loadingImage" class="icon-spinner icon-2x icon-spin centered "></i> Enter your callsign and check if you are in the log
-    </p>
-    <p>
         <div class="row">
             <div class="col-md-6 col-sm-6 col-xs-6">
-                <input class="form-control" data-bind="value: callsign, valueUpdate: 'afterkeydown'" placeholder="Your Call" type="text" tabindex="1" />
+                <input class="form-control" data-bind="value: callsign, valueUpdate: 'afterkeydown'" placeholder="Enter your callsign and check if you are in the log" type="text" tabindex="1" />
             </div>
             <div class="col-md-2 col-sm-3 col-xs-3">
                 <button id="CheckBtn" data-bind="click: GetWorkedStations" type="button" class="btn btn-info"><span class="glyphicon glyphicon-certificate"></span> Check</button>

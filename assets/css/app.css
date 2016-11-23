@@ -39,6 +39,10 @@
 body {
     background-color: #f5f5f5 !important;
 }
+body {
+    background-image: url('../img/xmas.png');
+    background-repeat:repeat;
+}
 .margin-bottom-10 {
 	margin-bottom: 10px;
 }
