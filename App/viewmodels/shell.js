@@ -12,7 +12,7 @@
         router: router,
         activate: function () {
             router.map([
-                { route: '', title: 'Live Log', moduleId: 'viewmodels/xmas', nav: true },                
+                { route: '', title: 'Live Log', moduleId: 'viewmodels/holyland2017', nav: true },                
             ]).buildNavigationModel();
 
             return router.activate();

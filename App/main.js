@@ -1,5 +1,5 @@
 ﻿requirejs.config({
-    urlArgs: "version=1.1",
+    urlArgs: "version=1.0",
     paths: {
         'text': '../Scripts/text',
         'durandal': '../Scripts/durandal',
@@ -16,7 +16,7 @@ define(['durandal/system', 'durandal/app', 'durandal/viewLocator'],  function (s
     system.debug(true);
     //>>excludeEnd("build");
 
-    app.title = '4XMAS';
+    app.title = 'Holyland 2017';
     app.version = "1.0";
 
     app.configurePlugins({

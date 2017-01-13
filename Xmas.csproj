@@ -22,6 +22,7 @@
     <IISExpressUseClassicPipelineMode />
     <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\</SolutionDir>
     <RestorePackages>true</RestorePackages>
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -146,9 +147,9 @@
     <Content Include="App\services\httpService.js" />
     <Content Include="App\services\themeManager.js" />
     <Content Include="App\services\utilities.js" />
-    <Content Include="App\viewmodels\xmas.js" />
+    <Content Include="App\viewmodels\holyland2017.js" />
     <Content Include="App\viewmodels\shell.js" />
-    <Content Include="App\views\xmas.html" />
+    <Content Include="App\views\holyland2017.html" />
     <Content Include="App\views\shell.html" />
     <Content Include="assets\css\app.css" />
     <Content Include="assets\css\landing.css" />
